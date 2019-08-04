@@ -6,9 +6,8 @@ server:
     base-url: http://localhost:9411
   #配置采样百分比
   sleuth:
-    sampler:
+    sampler:  
       probability: 1
-
 
 #配置ribbon负载策略
 product-service:
